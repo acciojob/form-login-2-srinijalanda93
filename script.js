@@ -1,10 +1,10 @@
 const formEleObj=document.querySelector("form");
 formEleObj.addEventListener("submit",(eventobj)=>{
 	 const data={
-		 FirstName:formEleObj.FirstName.value,
-		 LastName:formEleObj.LastName.value,
-		 PhoneNumber:formEleObj.PhoneNumber.value,
-		 EmailID:formEleObj.EmailID.value
+		 FirstName:formEleObj.First Name.value,
+		 LastName:formEleObj.Last Name.value,
+		 PhoneNumber:formEleObj.Phone Number.value,
+		 EmailID:formEleObj.Email ID.value
     };
    // console.log(data);
 	alert(
